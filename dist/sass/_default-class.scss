@@ -1,0 +1,36 @@
+.container-fluid{
+  padding: 0 60px;
+}
+.row{
+  display: flex;
+}
+.col{
+  display: flex;
+  position: relative;
+  &.s6{
+    width: 50%;
+  }
+  &.s12{
+    width: 100%;
+  }
+}
+.btn {
+    margin-top: 100px;
+    display: inline-block;
+    background: transparent;
+    padding: 0 100px;
+    height: 56px;
+    line-height: 56px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    a{
+      cursor: pointer;
+    }
+}
+.blue-bg{
+  background: #303f9f;
+}

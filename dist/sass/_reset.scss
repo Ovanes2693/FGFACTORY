@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+h3, p {
+	color: $whiteTextColor;
+	font-weight: 900;
+}
